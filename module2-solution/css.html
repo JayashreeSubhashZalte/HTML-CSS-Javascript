@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table- HTML</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #dddddd;
+            /* Light gray border */
+        }
+
+        th {
+            background-color: #4CAF50;
+            /* Green background for header */
+
+            color: white;
+            /* White text for header */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+            /* Light gray background for even rows */
+        }
+
+        tr:hover {
+            background-color: #ddd;
+            /* Darker gray on hover */
+        }
+
+        caption {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tables in html</h1>
+    <table>
+        <!-- Head of the table -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+
+            </tr>
+        </thead>
+        <!-- Body of the table -->
+        <tbody>
+            <tr>
+                <td>Jyashree</td>
+                <td>Data Analyst</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td>shreeyaj</td>
+                <td>Neurologist</td>
+                <td>&200</td>
+            </tr>
+            <tr>
+                <td colspan="3">Thanks</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
