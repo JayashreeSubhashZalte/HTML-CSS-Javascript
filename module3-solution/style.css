@@ -1,0 +1,15 @@
+*{ 
+    margin: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(221, 251, 252);
+}
